@@ -1,0 +1,40 @@
+/* Responsive Calendar */
+.responsive-calendar {
+  font-size: 9px;
+}
+
+@media (max-width: 1500px) {
+  .responsive-calendar {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .responsive-calendar {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-calendar {
+    font-size: 6px;
+  }
+
+  #raychat_widget {
+    margin-bottom: 3rem;
+    z-index: 20;
+  }
+
+  .university-detail-image-dialog-content {
+    background: transparent !important;
+    backdrop-filter: blur(15px);
+    height: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 2500px) {
+  .responsive-calendar {
+    font-size: 12px;
+  }
+}

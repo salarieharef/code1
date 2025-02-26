@@ -1,0 +1,40 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.singleQuote": true,
+	"prettier.semi": true,
+	"prettier.trailingComma": "es5",
+	"prettier.tabWidth": 2,
+	"prettier.printWidth": 80,
+	"prettier.bracketSpacing": true,
+	"prettier.arrowParens": "always",
+	"files.exclude": {
+		"**/.next": true,
+		"**/node_modules": true,
+		"**/build": true,
+		"**/dist": true,
+		"**/coverage": true,
+		"**/user_build": true,
+		"**/.idea": true
+	},
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[dotenv]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[dockerfile]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"cSpell.words": [
+		"دانلود",
+		"مطابق",
+		"ندارید"
+	],
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	}
+}

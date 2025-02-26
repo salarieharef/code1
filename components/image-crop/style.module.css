@@ -1,0 +1,14 @@
+/* .controls {
+  z-index: 1;
+  position: fixed;
+  pointer-events: none;
+  color: white;
+}
+
+.controls input,
+.controls button,
+.controls label {
+  pointer-events: all;
+}
+
+ */

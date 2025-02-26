@@ -1,0 +1,50 @@
+/* Masonry Grid */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -8px;
+  width: auto;
+
+  &_column {
+    padding-left: 8px;
+    background-clip: padding-box;
+  }
+}
+
+/* Component-specific styles */
+.heading :is(button.next, button.prev) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-editor-empty p[data-placeholder]:before {
+  content: attr(data-placeholder);
+  color: #888;
+  pointer-events: none;
+  height: 0;
+  display: block;
+}
+
+.teachingInKatebDrawerContent[vaul-drawer][vaul-drawer-direction="bottom"]:after {
+  content: unset !important;
+}
+
+.css-pzj3me {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* leaflet map custom */
+.leaflet-pane {
+  z-index: 1 !important;
+}
+.leaflet-top,
+.leaflet-left,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1 !important;
+}
+
+.vds-video-layout {
+  direction: ltr;
+}

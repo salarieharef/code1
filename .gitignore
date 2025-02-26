@@ -1,0 +1,69 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+bun.*
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/user_build/
+
+# production
+/build
+
+# vendor
+/vendor
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Auto Generated PWA files
+**/public/**/sw.js
+**/public/**/workbox-*.js
+**/public/**/worker-*.js
+**/public/**/sw.js.map
+**/public/**/workbox-*.js.map
+**/public/**/worker-*.js.map
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+**/static/sw.js
+**/static/workbox-*.js
+**/static/worker-*.js
+**/static/sw.js.map
+**/static/workbox-*.js.map
+**/static/worker-*.js.map
+**/static/sw.js
+**/static/workbox-*.js
+**/static/worker-*.js
+**/static/sw.js.map
+**/static/workbox-*.js.map
+**/static/worker-*.js.map
+cspell.json
